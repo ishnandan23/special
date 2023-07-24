@@ -1,2 +1,2 @@
 # special
-This iwebsite is basicealy provide a information about what is today?.
+This website basically provides information about what is today.
