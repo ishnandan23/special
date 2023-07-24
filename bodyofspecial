@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: 'VT323', monospace;}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.specialbio{
+    font-size: 4rem;
+    text-align: center;
+}
+.emoji{
+    width: 60px;
+    margin-left:-60px;
+    margin-top: -50px;
+    padding:0;
+
+}
+span{
+    color:midnightblue;
+}
+.w3-padding-32{
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">SPECIAL.COM</div>
+    <div class="specialbio">Every Day Is <span>Special...</span> <img class="emoji" src="https://clipart-library.com/new_gallery/237-2374262_emoji-emoticon-ok-gesture-smiley-png-image-with.png" alt="emoji"></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:160px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/07/23/21/the-moon32423a.jpg" alt="Sandwich" style="width:100%">
+      <h3>NATIONAL MOON DAY JULY 20,2023 U.S.</h3>
+      <p>“One small step for man, one giant leap for mankind” is celebrated on National Moon Day on July 20.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2022/08/29-Colombia-Independence-Day-1200x834.jpg.webp" alt="Steak" style="width:100%">
+      <h3>Colombia Independence Day – July 20, 2023
+        Colombia</h3>
+      <p>Colombian Independence Day, July 20, sparked movements leading to powerful Gran Colombia's formation, impacting Latin American politics.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2022/06/30-Prince-Haakon-1200x834.jpg.webp" alt="Cherries" style="width:100%">
+      <h3>Crown Prince Haakon's Day – July 20, 2023
+        Norway</h3>
+      <p>Norway's Crown Prince Haakon's Day on July 20 celebrates the heir apparent's birthday, honoring his royal lineage and achievements.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2021/07/International-Chess-Day-1200x834.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>International Chess Day – July 20, 2023</h3>
+      <p>International Chess Day on July 20 celebrates the beloved game globally, originating from UNESCO's idea over 50 years ago.</p>
+     
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2022/09/4568164-min-1200x834.jpg.webp" alt="Popsicle" style="width:100%">
+      <h3>Lempira Day – July 20, 2023
+        Honduras</h3>
+      <p>Lempira Day, July 20, honors the Lenca leader who resisted Spanish conquerors in Honduras, a celebrated national hero.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2022/05/19-Fortune-Cookie-1200x834.jpg.webp" alt="Salmon" style="width:100%">
+      <h3>National Fortune Cookie Day – July 20, 2023
+        United States</h3>
+      <p>July 20 is National Fortune Cookie Day. Americans celebrate the sweet, crunchy Chinese take-out treat with messages inside, enjoying three billion cookies annually.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2020/07/Lollipop-1200x834.jpg" alt="Sandwich" style="width:100%">
+      <h3>National Lollipop Day – July 20, 2023
+        U.S.</h3>
+      <p>National Lollipop Day on July 20 is for all ages. Midwest calls them suckers; others say lolly or sticky pop. Enjoy fruity flavors!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://nationaltoday.com/wp-content/uploads/2022/10/456840878-min-1200x834.jpg.webp" alt="Croissant" style="width:100%">
+      <h3>National Megan Day – July 20, 2023</h3>
+      <p>National Megan Day on July 20 celebrates the popular Welsh name's variations like Meghan and Megan, shared by many notable people.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+    <div class="w3-padding-32">
+      <h4><b>DESCRIPTION</b></h4>
+      <h6><i>With Passion For Real, thing's</i></h6>
+      <p>"Every day is special" is a rallying cry to appreciate life's simple joys, embrace opportunities, and find positivity in the ordinary. It encourages mindfulness, gratitude, and the celebration of each moment, fostering a more meaningful and fulfilling journey through life.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <p>Powered by @Special.com</p>
+    </div>
+  </footer> -->
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
